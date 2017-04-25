@@ -1,0 +1,68 @@
+{
+  "articles" : [ {
+    "article_id": 1,
+    "title" : "Article 1",
+    "body" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "date" : "1/1/2001",
+    "imageURL" : "https://i.ytimg.com/vi/8FF2JvHau2w/maxresdefault.jpg",
+    "author" : "Lucius Malfoy",
+    "featured" : true
+    }, {
+      "article_id": 2,
+      "title" : "Article 12",
+      "body" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "date" : "1/1/2011",
+      "imageURL" : "http://4.bp.blogspot.com/-MZdNCNlLdsk/UXAX8HqPNWI/AAAAAAAAAG4/jK456FXYoL8/s1600/7313280-illustration-of-retro-funky-character-with-funk-lettering.jpg",
+      "author" : "Jane Doe",
+      "featured" : false
+      }, {
+        "article_id": 3,
+        "title" : "Article 3",
+        "body" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date" : "1/1/2014",
+        "imageURL" : "https://i.ytimg.com/vi/KQHujoNkmwI/maxresdefault.jpg",
+        "author" : "Jack Jackson",
+        "featured" : false
+        },{
+          "article_id": 4,
+          "title" : "Article 4",
+          "body" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "date" : "1/1/2017",
+          "imageURL" : "http://images2.fanpop.com/image/photos/13400000/random-shit-on-my-computer-jammy-and-meg-13424320-512-384.jpg",
+          "author" : "Lily fo Filly",
+          "featured" : false
+          },   {
+            "article_id": 5,
+            "title" : "Article 1",
+            "body" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "date" : "1/1/2001",
+            "imageURL" : "https://i.ytimg.com/vi/8FF2JvHau2w/maxresdefault.jpg",
+            "author" : "Lucius Malfoy",
+            "featured" : true
+            }, {
+              "article_id": 6,
+              "title" : "Article 12",
+              "body" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+              "date" : "1/1/2011",
+              "imageURL" : "http://4.bp.blogspot.com/-MZdNCNlLdsk/UXAX8HqPNWI/AAAAAAAAAG4/jK456FXYoL8/s1600/7313280-illustration-of-retro-funky-character-with-funk-lettering.jpg",
+              "author" : "Jane Doe",
+              "featured" : false
+              }, {
+                "article_id": 7,
+                "title" : "Article 3",
+                "body" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "date" : "1/1/2014",
+                "imageURL" : "https://i.ytimg.com/vi/KQHujoNkmwI/maxresdefault.jpg",
+                "author" : "Jack Jackson",
+                "featured" : false
+                },{
+                  "article_id": 8,
+                  "title" : "Article 4",
+                  "body" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                  "date" : "1/1/2017",
+                  "imageURL" : "http://images2.fanpop.com/image/photos/13400000/random-shit-on-my-computer-jammy-and-meg-13424320-512-384.jpg",
+                  "author" : "Lily fo Filly",
+                  "featured" : false
+                }
+              ]
+            }

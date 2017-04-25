@@ -1,0 +1,39 @@
+{{#if updateArticleForm}}
+  <h4>Update article number {{article.article_id}}</h4>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="title">Title</label>
+        {{input value=title id="title" placeholder=article.title required="required"}}
+      </div>
+
+      <div class="form-group">
+        <label for="author">Author</label>
+        {{input value=author id="type" placeholder=article.author required="required"}}
+      </div>
+
+      <div class="form-group">
+        <label for="date">Date</label>
+        {{input value=date id="date" placeholder=article.date required="required"}}
+      </div>
+
+      <div class="form-group">
+        <label for="body">Body</label>
+        {{input value=body id="body" placeholder=article.body required="required"}}
+      </div>
+
+      <div class="form-group">
+        <label for="imageURL">Image URL</label>
+        {{input value=imageURL id="imageURL" placeholder=article.imageURL required="required"}}
+      </div>
+      <div class="form-group">
+        <label for="featured">Featured?</label>
+        <input type="checkbox" name="featured" checked={{article.featured}}>
+      </div>
+
+      <button {{action 'update' article}}>Save</button>
+    </form>
+  </div>
+  {{else}}
+  <button {{action 'updateArticleForm'}}>Update</button>
+  {{/if}}

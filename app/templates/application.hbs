@@ -1,0 +1,18 @@
+{{outlet 'nav-bar'}}
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<div class="ember-view">
+
+<main>
+<div class= "container">
+
+  <header class= "jumbotron">
+    <h1>bustle-clone</h1>
+      <p>{{#link-to 'admin'}}Admin Panel{{/link-to}} - {{#link-to 'index'}}Home Page{{/link-to}}</p>
+  </header>
+    {{outlet}}
+  <hr>
+</div>
+</main>
+
+</div>

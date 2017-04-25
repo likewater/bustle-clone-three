@@ -1,0 +1,11 @@
+<h1> Admin Panel</h1>
+
+<ul>
+    {{#each model as |article|}}
+  <p>{{article.title}}</p>
+  <p>{{article.featured}} </p>
+  {{update-article article=article update="update"}}
+  {{/each}}
+</ul>
+
+{{#link-to 'index'}}Home{{/link-to}}

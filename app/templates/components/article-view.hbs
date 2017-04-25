@@ -1,0 +1,29 @@
+<div class="container innerbody">
+<div class="topbar row">
+
+</div>
+<div class="col-md-2"></div>
+<div class="row featured">
+
+  {{#if article.featured}}
+
+  <div class="article featuredArticle" id="grad">
+    <h2 class="articleTitle">{{#link-to 'article' article.article_id}}{{article.title}}{{/link-to}}<small><br>{{article.date}}</small></h2>
+    <h4 class="articleByLine"><small><em>by</em></small> {{article.author}}</h4><br>
+    <img src={{article.imageURL}} class="articleImg">
+  </div>
+
+  {{else}}
+
+  <div class="article">
+    <h2 class="articleTitle">{{#link-to 'article' article.article_id}}{{article.title}}{{/link-to}}<small><br>{{article.date}}</small></h2>
+    <h4 class="articleByLine"><small><em>by</em></small> {{article.author}}</h4><br>
+    <img src={{article.imageURL}} class="articleImg" id="grad">
+  </div>
+
+
+{{/if}}
+</div>
+
+<div class="col-md-2"></div>
+</div>
