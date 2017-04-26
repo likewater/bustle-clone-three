@@ -4,7 +4,7 @@ export default Ember.Component.extend({
   updateArticleForm: false,
   actions: {
     updateArticleForm() {
-      this.set('updateArticleForm', true)
+      this.set('updateArticleForm', true);
     },
     update(article) {
       var params = {
@@ -14,9 +14,9 @@ export default Ember.Component.extend({
         imageURL: this.get('imageURL'),
         author: this.get('author'),
         featured: this.get('featured')
-      }
-      this.set('updateArticleForm', false)
-      this.sendAction('update', article, params)
+      };
+      this.set('updateArticleForm', false);
+      this.sendAction('update', article, params);
     }
   }
 });

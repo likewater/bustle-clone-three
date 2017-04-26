@@ -13,6 +13,14 @@ actions: {
     });
     article.save();
     this.transitionTo('index');
+  },
+
+  saveArticle3(params) {
+    console.log("save function called on click");
+    var newArticle = this.store.createRecord('article', params);
+    newArticle.save();
+
+    this.transitionTo('index');
   }
 }
 });

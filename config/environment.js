@@ -18,11 +18,19 @@ module.exports = function(environment) {
       // when it is created
     },
 
-    firebase: {
-      apiKey: "AIzaSyBaB0kiwxv2kaokD_DSZpYxCycsRxx6-zI",
-      authDomain: "bustle-clone-42dd6.firebaseapp.com",
-      databaseURL: "https://bustle-clone-42dd6.firebaseio.com",
-       storageBucket: "bustle-clone-42dd6.appspot.com",
+  //   firebase: {
+  //     apiKey: "AIzaSyBaB0kiwxv2kaokD_DSZpYxCycsRxx6-zI",
+  //     authDomain: "bustle-clone-42dd6.firebaseapp.com",
+  //     databaseURL: "https://bustle-clone-42dd6.firebaseio.com",
+  //      storageBucket: "bustle-clone-42dd6.appspot.com",
+  //   }
+  // };
+
+  firebase: {
+      apiKey: 'AIzaSyDZQJ6KhZfjUGT5agcfSyudBtJEkGvV2Ic',
+      authDomain: 'bustle-clone-263e4.firebaseapp.com',
+      databaseURL: 'https://bustle-clone-263e4.firebaseio.com',
+      storageBucket: 'bustle-clone-263e4.appspot.com'
     }
   };
 
